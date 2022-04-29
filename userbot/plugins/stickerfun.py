@@ -418,7 +418,7 @@ async def doge(event):
         return await edit_delete(
             event, "__What is doge supposed to say? Give some text.__"
         )
-    await edit_delete(event, "`Wait, processing.....`")
+    await edit_delete(event, "`HueHueHue.....`")
     text = soft_deEmojify(text)
     temp_name, fontname = file_checker(
         "https://telegra.ph/file/6f621b9782d9c925bd6c4.jpg"
@@ -572,7 +572,7 @@ async def gandhi(event):
         return await edit_delete(
             event, "What is gandhi supposed to write? Give some text."
         )
-    await edit_delete(event, "Wait, processing.....")
+    await edit_delete(event, "`Gand..hi.....`")
     temp_name, fontname = file_checker(
         "https://telegra.ph/file/3bebc56ee82cce4f300ce.jpg"
     )
