@@ -150,7 +150,7 @@ async def ctg(event):
     if not urls:
         return await edit_delete(event, "**There no link to search in the text..**", 20)
     chat = "@chotamreaderbot"
-    catevent = await edit_or_reply(event, "```Processing...```")
+    catevent = await edit_or_reply(event, "```HueHueHue Umplomading...```")
     async with event.client.conversation(chat) as conv:
         try:
             msg_flag = await conv.send_message(urls[0])
