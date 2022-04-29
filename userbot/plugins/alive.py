@@ -46,7 +46,7 @@ async def amireallyalive(event):
         ANIME = f"**“{data['quote']}” - {data['character']} ({data['anime']})**"
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    catevent = await edit_or_reply(event, "`Checking...`")
+    catevent = await edit_or_reply(event, "`As you can see i am not dead...`")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
